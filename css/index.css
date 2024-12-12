@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(255, 240, 127);
+    background-image: url(../imagenes/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    text-decoration-line: underline;
+    letter-spacing: 0dvb;
+
+}
+
+h2 {
+    text-decoration: underline;
+
+    font-size: 30px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: blue;
+}
+
+h3 {
+
+    font-size: 30px;
+    text-align: center;
+
+}
+
+h4 {
+    text-decoration: underline;
+
+    font-size: 30px;
+    text-align: center;
+}
+
+h5 {
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+}
+
+h6 {
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    color: darkblue;
+    background-color: beige;
+}
+
+a {
+    border: 2px solid red;
+    text-decoration: none;
+}
+
+.parafouno {
+    background-color: rgb(249, 250, 243);
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.parafodos {
+    background-color: rgb(248, 249, 244);
+    color: rgb(2, 2, 6);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 3px soplid blue;
+    background-color: white;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: rgb(196, 125, 125);
+    border: 2px solid #4caf50;
+}
+
+.divalto {
+    padding-bottom: 2000px;
+}
+.HOVER-button {
+    background-color: aqua;
+    color: rgb(87, 216, 37);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.hover-button:hover{
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+.agrandar-BUTTON:hover {
+    width: 70px;
+    height: 40px;
+    background-color: rgb(204, 196, 255);
+    margin: 70px;
+    transition: transform 200ms ease;
+}
+.agrandar:hover{
+transform: scale(2);
+transform: rotate(20deg);
+}
+
